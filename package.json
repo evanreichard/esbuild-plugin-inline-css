@@ -3,6 +3,14 @@
   "version": "0.0.1",
   "description": "Inline CSS Loader for esbuild",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:evanreichard/esbuild-plugin-inline-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evanreichard/esbuild-plugin-inline-css/issues"
+  },
+  "homepage": "https://github.com/evanreichard/esbuild-plugin-inline-css#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
