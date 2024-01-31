@@ -26,7 +26,7 @@ async function generateInjectCSS(sourcePath){
         if (!document.getElementById('${styleID}')) {
             var e = document.createElement('style');
             e.id = '${styleID}';
-            e.textContent = \`${sourceCSS}\`;
+            e.textContent = \`${sourceCSS.toString().replace(/`/g, '``')}\`;
             document.head.appendChild(e);
         }
     })();`;
